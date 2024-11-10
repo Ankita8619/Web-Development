@@ -1,0 +1,83 @@
+/* Ultimate modern and sleek navbar design */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #151515;
+  padding: 1.5rem 3rem;
+  border-bottom: 2px solid #444;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+  color: #f1f1f1;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.navbar-user {
+  color: #e0e0e0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.navbar-login-btn {
+  background: linear-gradient(135deg, #0052cc, #007bff);
+  color: white;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+}
+
+.navbar-login-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.6);
+  background: linear-gradient(135deg, #007bff, #0052cc);
+}
+
+
+.navbar-logout-btn:focus,
+.navbar-login-btn:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 62, 0, 0.8);
+}
+
+.navbar-logout-btn:active,
+.navbar-login-btn:active {
+  transform: scale(0.95);
+}
+
+.navbar a {
+  color: #b0b0b0;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ff3e00;
+}
+
+/* Polished hover effects */
+.navbar-brand:hover {
+  color: #ff3e00;
+  transition: color 0.3s ease;
+}
+
+.navbar-user:hover {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
